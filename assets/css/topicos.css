@@ -1,0 +1,79 @@
+.topicos {
+    background-color: var(--branco);
+    padding-top: 1em;
+}
+
+.recentes {
+    background: var(--azul-banner);
+    padding: 1em 0.5em;
+    text-align: center;
+    color: var(--branco);
+}
+
+.recentes__titulo {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.recentes__lista {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.lista__links {
+    background-color: var(--laranja);
+    padding: 1em 1.5em;
+    margin: 0.5em;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 1em;
+    border-bottom: 0.5px solid var(--cinza);
+}
+
+.contato__conteudo {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.conteudo__titulo {
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.conteudo__texto {
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.contato__email {
+    border-radius: 90px;
+    padding: 1em;
+    border: 2px solid var(--azul);
+    color: var(--azul);
+}
+
+.contato__email::placeholder {
+    font-size: 16px;
+    padding-left: 3em;
+    background-image: url(../img/email.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+}
+
+.rodape {
+    background-color: var(--rodape);
+    padding: 1em;
+    color: var(--preto);
+}
