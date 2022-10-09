@@ -3,6 +3,7 @@
 @import url(../css/carrossel.css);
 @import url(../css/destaque.css);
 @import url(../css/topicos.css);
+@import url(../css/rodape.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -10,12 +11,13 @@
     --laranja: #EB9B00;
     --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: 'Poppins';
-    --azul-banner: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-titulo: 'Josefin Sans';
     --azul: #002F52;
     --preto: #000000;
     --laranja-escuro: #ff7b00;
     --cinza: #858585;
-    --rodape: #F9F9F9
+    --cinza-escuro: #474646;
+    --rodape: #F9F9F9;
 }
 
 body {

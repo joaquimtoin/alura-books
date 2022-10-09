@@ -38,3 +38,21 @@
 .banner__pesquisa::placeholder::before {
     content: url(../img/Vector.svg);
 }
+
+@media screen and (min-width: 1024px) {
+
+    .banner{
+        padding: 5em 0;
+    }
+
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+    .banner__pesquisa::placeholder {
+        background-position: 7em;
+    }
+}

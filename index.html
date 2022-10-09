@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -38,9 +39,37 @@
                 </li>
             </ul>
             <img src="./assets/img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
+
+        <ul class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design e UX</a>
+                </li>
+            </ul>
+            <li class="opcoes__item"><a href="#" class="opcoes__item--links">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__item--links">Minha estante</a></li>
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="./assets/img/Favoritos.svg"  alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./assets/img/Favoritos.svg"  alt="Meus favoritos" class="container__imagem container__imagem--favoritos"></a>
             <a href="#"><img src="./assets/img/Compras.svg" alt="Minhas Compras" class="container__imagem"></a>
             <a href="#"><img src="./assets/img/Usuario.svg" alt="Meu Perfil" class="container__imagem"></a>
         </div>
@@ -121,7 +150,7 @@
                     <h2 class="destaque__livro-titulo">Juliana Agarikov</h2>
                     <p class="destaque__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
                 </div>
-                <img src="./assets/img/Capa-livro.svg" alt="capa do livro angular onze e firebase da alura" class="card__imagem">
+                <img src="./assets/img/Perfil-escritora 1.png" alt="capa do livro angular onze e firebase da alura" class="card__imagem">
             </div>
             <div class="card__acao">
                 <ul class="acao">
@@ -152,11 +181,86 @@
                 <h2 class="conteudo__titulo">Fique por dentro das novidades!</h2>
                 <p class="conteudo__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
             </div>
-            <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
-        </div>
+            <div class="contato__caixa">
+                <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
+            </div>
+            </div>
     </section>
     <footer class="rodape">
         <p class="rodape__texto">Grupo Alura</p>
+        <ul class="rodape-lista__links">
+            <li class="links__titulo">EDUCAÇÃO</li>  
+            <li class="links__item">
+                <img src="./assets/img/Caelum.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">Caelum</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/CasadoCodigo.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Casa do Código</a>
+            </li>
+        </ul>
+        <ul class="rodape-lista__links">
+            <li class="links__titulo">EDUCAÇÃO ONLINE</li>  
+            <li class="links__item">
+                <img src="./assets/img/Alura.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">Alura</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/AluraEmpresas.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Alura Para Empresas</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/AluraLATAM.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">Alura LATAM</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/AluraStart.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Alura Start</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/MusicDot.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">MusicDot</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/AluraLingua.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Alura Língua</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/PM3.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">PM3</a>
+            </li>
+        </ul>
+        <ul class="rodape-lista__links">
+            <li class="links__titulo">COMUNIDADE</li> 
+            <li class="links__item">
+                <img src="./assets/img/HipstersTech.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">Hipsters ponto Tech</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/ScubaDev.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Scuba Dev</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/LayersTech.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">Layers ponto Tech</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/AluraStart.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Like a Boss</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/CarreiraSemFronteira.svg" alt="logo caelum" class="item__imagem">
+                <a href="#" class="item__ancora">Carreira sem Fronteira</a>
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/HipstersJobs.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">Hipsters</a> ponto Jobs
+            </li>
+            <li class="links__item">
+                <img src="./assets/img/GUJ.svg" alt="logo casa do codigo" class="item__imagem">
+                <a href="#" class="item__ancora">GUJ</a>
+            </li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

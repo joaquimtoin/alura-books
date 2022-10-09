@@ -80,4 +80,42 @@
     text-decoration: none;
 }
 
+@media screen and (min-width:1024px) {
+    .carrossel{
+        justify-content: center;
+    }
 
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+    
+    .card {
+        width: 60%;
+        margin: 3em auto;
+        padding: 2em;
+    }
+
+    .destaque {
+        padding-right: 2em;
+    }
+
+    .destaque__livro-titulo {
+        margin: 1em 0;
+    }
+
+    .destaque__texto {
+        font-size: 16px;
+    }
+}

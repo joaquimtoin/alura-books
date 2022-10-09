@@ -4,7 +4,7 @@
 }
 
 .recentes {
-    background: var(--azul-banner);
+    background: var(--azul-gradiente);
     padding: 1em 0.5em;
     text-align: center;
     color: var(--branco);
@@ -72,8 +72,43 @@
     color: var(--azul);
 }
 
-.rodape {
-    background-color: var(--rodape);
-    padding: 1em;
-    color: var(--preto);
+@media screen and (min-width:1024px) {
+    
+    .topicos {
+        padding-top: 0;
+    }
+
+    .recentes{
+        padding: 2em;
+    }
+
+    .recentes__titulo {
+        font-size: 24px;
+    }
+
+    .lista__links {
+        font-size: 24px;
+    }
+
+    .contato {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5em;
+        background-color: var(--branco);
+        align-items: center;
+        padding: 2em 10em;
+    }
+
+    .conteudo__titulo {
+        font-size: 24px;
+    }
+
+    .contato__caixa {
+        grid-column: 2;
+    }
+
+    .contato__email {
+        width: 100%;
+    }
+
 }
