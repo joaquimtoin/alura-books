@@ -42,3 +42,14 @@
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        padding: 3em 7em;
+    }
+
+    .rodape-lista__links {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+}
